@@ -1,0 +1,132 @@
+
+.head {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background: red;
+    border-radius: 99px;
+    top: 45px;
+    left: 200px;
+    background: linear-gradient(45deg, pink, blue);
+}
+
+.body {
+    position: absolute;
+    width: 55px;
+    height: 90px;
+    top: 113px;
+    left: 207px;
+    background: linear-gradient(45deg, pink, blue);
+    border-radius: 15px;
+
+}
+
+.move0 .arm{
+    /**nakatagilid*/
+    top: 107px;
+    left: 182px;
+    position: absolute;
+}
+
+.right.arm {
+    border-bottom: 20px solid pink;
+    border-left: 20px solid pink;
+    width: 34px;
+    height: 30px;
+    transform: rotate(55deg);
+    top: 20%;
+    left: 27%;
+     border-radius: 15px;
+}
+.left.arm {
+    border-bottom: 20px solid lightblue;
+    border-left: 20px solid lightblue;
+    width: 34px;
+    height: 30px;
+    transform: rotate(-40deg);
+    z-index: -1;
+    left: 37%;
+     border-radius: 15px;
+}
+
+
+
+
+.left.hita {
+       position: absolute;
+    width: 25px;
+    height: 50px;
+    background: lightblue;
+    top: 200px;
+    left: 239px;
+    transform: rotate(-4deg);
+     border-radius: 15px;
+}
+.right.hita {
+        position: absolute;
+    width: 25px;
+    height: 50px;
+    background: pink;
+    top: 200px;
+    left: 206px;
+    transform: rotate(2deg);
+     border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+.left.binti {
+       position: absolute;
+    background: lightblue;
+    width: 25px;
+    height: 55px;
+    top: 250px;
+    left: 243px;
+    transform: rotate(-4deg);
+     border-radius: 15px;
+}
+
+.right.binti {
+       position: absolute;
+    background: pink;
+    width: 25px;
+    height: 55px;
+    top: 250px;
+    left: 204px;
+    transform: rotate(2deg);
+     border-radius: 15px;
+}
+
+.left.paa {
+       position: absolute;
+    border: 2px solid black;
+    width: 29px;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-top: 0px transparent;
+    border-right: 24px solid transparent;
+    border-bottom: 20px solid lightblue;
+    top: 304px;
+    left: 244px;
+    transform: rotate(-3.5deg);
+}
+
+.right.paa {
+        position: absolute;
+    border: 2px solid black;
+    width: 29px;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-top: 0px transparent;
+    border-right: 24px solid transparent;
+    border-bottom: 20px solid pink;
+    top: 305px;
+    left: 201px;
+    transform: rotate(4.5deg);
+}
